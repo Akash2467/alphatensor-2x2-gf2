@@ -1,0 +1,191 @@
+[
+  {
+    "epoch": 1,
+    "synthetic_loss": 6.208018220265706,
+    "expert_loss": 6.101675817534679,
+    "expert_top5": 0.568503937007874,
+    "validation_loss": 6.097474394969467,
+    "validation_top1": 0.2187655964065879,
+    "validation_top5": 0.2936283480286142,
+    "beam": {
+      "success": false,
+      "action_indices": [
+        274,
+        2081,
+        16,
+        2197,
+        679,
+        339,
+        900
+      ],
+      "depth": 7,
+      "expanded_nodes": 83521,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1
+    }
+  },
+  {
+    "epoch": 2,
+    "synthetic_loss": 6.107717208862304,
+    "expert_loss": 5.573099325585553,
+    "expert_top5": 0.6818897637795276,
+    "validation_loss": 6.201060973195819,
+    "validation_top1": 0.20212942937947098,
+    "validation_top5": 0.280652137747463,
+    "beam": {
+      "success": false,
+      "action_indices": [
+        274,
+        2081,
+        16,
+        2197,
+        679,
+        339,
+        900
+      ],
+      "depth": 7,
+      "expanded_nodes": 83424,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1
+    }
+  },
+  {
+    "epoch": 3,
+    "synthetic_loss": 6.100430603027344,
+    "expert_loss": 5.040522426695335,
+    "expert_top5": 0.8062992125984252,
+    "validation_loss": 6.402457219236327,
+    "validation_top1": 0.1768424554982532,
+    "validation_top5": 0.2628514390284478,
+    "beam": {
+      "success": false,
+      "action_indices": [
+        798,
+        274,
+        1687,
+        2073,
+        16,
+        757,
+        727
+      ],
+      "depth": 7,
+      "expanded_nodes": 83364,
+      "residual_nonzero": 3,
+      "residual_rank_upper_bound": 3
+    }
+  },
+  {
+    "epoch": 4,
+    "synthetic_loss": 6.146386197408041,
+    "expert_loss": 4.52300920937005,
+    "expert_top5": 0.8992125984251969,
+    "validation_loss": 6.643828582573286,
+    "validation_top1": 0.14223922808184994,
+    "validation_top5": 0.24172350690400932,
+    "beam": {
+      "success": false,
+      "action_indices": [
+        798,
+        274,
+        1687,
+        2073,
+        16,
+        757,
+        727
+      ],
+      "depth": 7,
+      "expanded_nodes": 83302,
+      "residual_nonzero": 3,
+      "residual_rank_upper_bound": 3
+    }
+  },
+  {
+    "epoch": 5,
+    "synthetic_loss": 6.213240439097087,
+    "expert_loss": 4.0678439771096535,
+    "expert_top5": 0.9464566929133859,
+    "validation_loss": 6.84108146592278,
+    "validation_top1": 0.11928131758442855,
+    "validation_top5": 0.22625187156879056,
+    "beam": {
+      "success": false,
+      "action_indices": [
+        798,
+        274,
+        1687,
+        2073,
+        16,
+        757,
+        727
+      ],
+      "depth": 7,
+      "expanded_nodes": 83224,
+      "residual_nonzero": 3,
+      "residual_rank_upper_bound": 3
+    }
+  },
+  {
+    "epoch": 6,
+    "synthetic_loss": 6.2080576070149736,
+    "expert_loss": 3.673089446796207,
+    "expert_top5": 0.9748031496062992,
+    "validation_loss": 7.000021804412299,
+    "validation_top1": 0.10347695890866744,
+    "validation_top5": 0.2127765762768258,
+    "beam": {
+      "success": true,
+      "action_indices": [
+        24,
+        2479,
+        1117,
+        2888,
+        1646,
+        3315,
+        332
+      ],
+      "depth": 7,
+      "expanded_nodes": 83110,
+      "residual_nonzero": 0,
+      "residual_rank_upper_bound": 0
+    }
+  },
+  {
+    "final_evaluation": {
+      "training_source": "1 solver-discovered rank-7 solution family",
+      "solver_used_during_evaluation": false,
+      "exact_tail_completion_used": false,
+      "expert_states": 635,
+      "beam": {
+        "success": true,
+        "action_indices": [
+          24,
+          2479,
+          1117,
+          2888,
+          1646,
+          3315,
+          332
+        ],
+        "depth": 7,
+        "expanded_nodes": 83110,
+        "residual_nonzero": 0,
+        "residual_rank_upper_bound": 0
+      },
+      "mcts": {
+        "success": false,
+        "action_indices": [
+          16,
+          495,
+          60
+        ],
+        "simulations": 1000,
+        "expanded_nodes": 198,
+        "residual_nonzero": 5,
+        "residual_rank_upper_bound": 5
+      },
+      "selected_exact_rank7": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256
+    }
+  }
+]

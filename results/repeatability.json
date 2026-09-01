@@ -1,0 +1,103 @@
+{
+  "runs": [
+    {
+      "seed": 0,
+      "solver_status": "sat",
+      "solver_seconds": 75.02043400006369,
+      "solver_action_indices": [
+        24,
+        332,
+        1117,
+        1646,
+        2479,
+        2888,
+        3315
+      ],
+      "solver_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256,
+      "mcts_success": false,
+      "mcts_action_indices": [
+        495,
+        60,
+        16,
+        678,
+        2497,
+        1717,
+        331
+      ],
+      "mcts_expanded_nodes": 474,
+      "mcts_residual_nonzero": 1,
+      "mcts_residual_rank": 1
+    },
+    {
+      "seed": 1,
+      "solver_status": "sat",
+      "solver_seconds": 89.85846100002527,
+      "solver_action_indices": [
+        137,
+        564,
+        686,
+        1624,
+        2235,
+        2408,
+        3187
+      ],
+      "solver_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256,
+      "mcts_success": false,
+      "mcts_action_indices": [
+        495,
+        60,
+        16,
+        678,
+        2497,
+        1717,
+        331
+      ],
+      "mcts_expanded_nodes": 487,
+      "mcts_residual_nonzero": 1,
+      "mcts_residual_rank": 1
+    },
+    {
+      "seed": 2,
+      "solver_status": "sat",
+      "solver_seconds": 79.70431070006453,
+      "solver_action_indices": [
+        436,
+        484,
+        704,
+        962,
+        1446,
+        1687,
+        3198
+      ],
+      "solver_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256,
+      "mcts_success": false,
+      "mcts_action_indices": [
+        495,
+        60,
+        16,
+        678,
+        2497,
+        1717,
+        331
+      ],
+      "mcts_expanded_nodes": 476,
+      "mcts_residual_nonzero": 1,
+      "mcts_residual_rank": 1
+    }
+  ],
+  "summary": {
+    "seeds_run": 3,
+    "solver_sat_count": 3,
+    "unique_solver_solutions": 3,
+    "all_solver_results_exact": true,
+    "all_exhaustive_checks_passed": true,
+    "mcts_rank7_count": 0,
+    "best_mcts_residual_rank": 1
+  }
+}

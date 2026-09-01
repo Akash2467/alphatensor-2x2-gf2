@@ -1,0 +1,28 @@
+{
+  "success": false,
+  "exact": false,
+  "action_indices": [
+    495,
+    60,
+    16,
+    678,
+    2497,
+    1717,
+    331
+  ],
+  "depth": 7,
+  "simulations": 10000,
+  "expanded_nodes": 1076,
+  "root_visits": 10000,
+  "score": 0.875,
+  "residual_nonzero": 1,
+  "residual_rank_upper_bound": 1,
+  "checkpoint": "checkpoints\\symmetry_transformer.pt",
+  "checkpoint_cycle": 3,
+  "top_k": 256,
+  "c_puct": 3.0,
+  "value_blend": 0.25,
+  "root_noise_fraction": 0.5,
+  "dirichlet_alpha": 0.15,
+  "seed": 314
+}

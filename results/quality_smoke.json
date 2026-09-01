@@ -1,0 +1,53 @@
+[
+  {
+    "cycle": 1,
+    "new_policy_states": 55,
+    "policy_replay_size": 55,
+    "validation_top1": 0.22475461653635004,
+    "validation_top5": 0.2991182831475628,
+    "searches": [
+      {
+        "success": false,
+        "expanded_nodes": 45,
+        "policy_targets": 16,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.46686331570996537
+      },
+      {
+        "success": false,
+        "expanded_nodes": 41,
+        "policy_targets": 16,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.46686331570996537
+      }
+    ],
+    "epochs": [
+      {
+        "hard_loss": 6.7658789616066,
+        "soft_loss": 5.060634144869717,
+        "soft_top5_any": 0.4727272727272727
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "action_indices": [
+        274,
+        2081,
+        16,
+        2197,
+        679,
+        339,
+        900
+      ],
+      "expanded_nodes": 51,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1
+    },
+    "checkpoint_selected": true,
+    "best_cycle_after_evaluation": 1
+  }
+]

@@ -1,0 +1,218 @@
+{
+  "summary": {
+    "checkpoint": "checkpoints\\expert_bootstrap_transformer.pt",
+    "device": "cpu",
+    "solver_used": false,
+    "exact_tail_completion_used": false,
+    "deterministic_successes": 1,
+    "deterministic_runs": 4,
+    "minimum_successful_beam_width": 256,
+    "noisy_successes": 5,
+    "noisy_runs": 5,
+    "all_successes_tensor_exact": true,
+    "all_successes_exhaustive_exact": true,
+    "solution_classes": [
+      "known_solution_1"
+    ]
+  },
+  "runs": [
+    {
+      "beam_width": 32,
+      "top_k": 64,
+      "policy_noise": 0.0,
+      "seed": 0,
+      "success": false,
+      "action_indices": [
+        798,
+        16,
+        274,
+        1687,
+        2073,
+        757,
+        727
+      ],
+      "solution_class": "incomplete",
+      "expanded_nodes": 11981,
+      "residual_nonzero": 3,
+      "tensor_exact": false,
+      "exhaustive_exact": false,
+      "checked_input_pairs": 0
+    },
+    {
+      "beam_width": 64,
+      "top_k": 64,
+      "policy_noise": 0.0,
+      "seed": 0,
+      "success": false,
+      "action_indices": [
+        798,
+        274,
+        1687,
+        2073,
+        16,
+        757,
+        727
+      ],
+      "solution_class": "incomplete",
+      "expanded_nodes": 23867,
+      "residual_nonzero": 3,
+      "tensor_exact": false,
+      "exhaustive_exact": false,
+      "checked_input_pairs": 0
+    },
+    {
+      "beam_width": 128,
+      "top_k": 64,
+      "policy_noise": 0.0,
+      "seed": 0,
+      "success": false,
+      "action_indices": [
+        798,
+        274,
+        1687,
+        2073,
+        16,
+        757,
+        727
+      ],
+      "solution_class": "incomplete",
+      "expanded_nodes": 43619,
+      "residual_nonzero": 3,
+      "tensor_exact": false,
+      "exhaustive_exact": false,
+      "checked_input_pairs": 0
+    },
+    {
+      "beam_width": 256,
+      "top_k": 64,
+      "policy_noise": 0.0,
+      "seed": 0,
+      "success": true,
+      "action_indices": [
+        24,
+        2479,
+        1117,
+        2888,
+        1646,
+        3315,
+        332
+      ],
+      "solution_class": "known_solution_1",
+      "expanded_nodes": 83110,
+      "residual_nonzero": 0,
+      "tensor_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256
+    },
+    {
+      "beam_width": 256,
+      "top_k": 64,
+      "policy_noise": 0.02,
+      "seed": 0,
+      "success": true,
+      "action_indices": [
+        24,
+        2479,
+        1117,
+        2888,
+        1646,
+        3315,
+        332
+      ],
+      "solution_class": "known_solution_1",
+      "expanded_nodes": 83119,
+      "residual_nonzero": 0,
+      "tensor_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256
+    },
+    {
+      "beam_width": 256,
+      "top_k": 64,
+      "policy_noise": 0.02,
+      "seed": 1,
+      "success": true,
+      "action_indices": [
+        24,
+        1117,
+        2888,
+        2479,
+        1646,
+        3315,
+        332
+      ],
+      "solution_class": "known_solution_1",
+      "expanded_nodes": 83087,
+      "residual_nonzero": 0,
+      "tensor_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256
+    },
+    {
+      "beam_width": 256,
+      "top_k": 64,
+      "policy_noise": 0.02,
+      "seed": 2,
+      "success": true,
+      "action_indices": [
+        24,
+        2479,
+        1117,
+        2888,
+        1646,
+        3315,
+        332
+      ],
+      "solution_class": "known_solution_1",
+      "expanded_nodes": 83095,
+      "residual_nonzero": 0,
+      "tensor_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256
+    },
+    {
+      "beam_width": 256,
+      "top_k": 64,
+      "policy_noise": 0.02,
+      "seed": 3,
+      "success": true,
+      "action_indices": [
+        24,
+        1117,
+        2888,
+        2479,
+        1646,
+        3315,
+        332
+      ],
+      "solution_class": "known_solution_1",
+      "expanded_nodes": 83098,
+      "residual_nonzero": 0,
+      "tensor_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256
+    },
+    {
+      "beam_width": 256,
+      "top_k": 64,
+      "policy_noise": 0.02,
+      "seed": 4,
+      "success": true,
+      "action_indices": [
+        24,
+        1117,
+        2888,
+        2479,
+        1646,
+        3315,
+        332
+      ],
+      "solution_class": "known_solution_1",
+      "expanded_nodes": 83107,
+      "residual_nonzero": 0,
+      "tensor_exact": true,
+      "exhaustive_exact": true,
+      "checked_input_pairs": 256
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+[
+  {
+    "cycle": 1,
+    "new_or_improved_replay_records": 119,
+    "replay_size": 583,
+    "symmetry_augmentations": 2,
+    "max_actions_per_state": 8,
+    "synthetic_validation_top1": 0.21078023623357178,
+    "synthetic_validation_top5": 0.28913658293129263,
+    "searches": [
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 5066,
+        "residual_nonzero": 1,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          900,
+          339
+        ]
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "depth": 7,
+      "expanded_nodes": 20688,
+      "residual_nonzero": 2,
+      "action_indices": [
+        274,
+        2073,
+        16,
+        679,
+        900,
+        757,
+        727
+      ]
+    }
+  }
+]

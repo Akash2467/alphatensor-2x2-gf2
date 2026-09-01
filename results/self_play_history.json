@@ -1,0 +1,254 @@
+[
+  {
+    "cycle": 1,
+    "new_or_improved_replay_records": 399,
+    "replay_size": 279,
+    "synthetic_validation_top1": 0.20612210946597903,
+    "synthetic_validation_top5": 0.28314756280153053,
+    "searches": [
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338680,
+        "residual_nonzero": 6,
+        "action_indices": [
+          1816,
+          904,
+          3,
+          274,
+          1721,
+          1773,
+          1824
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338797,
+        "residual_nonzero": 6,
+        "action_indices": [
+          274,
+          1816,
+          2081,
+          2197,
+          335,
+          566,
+          128
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338805,
+        "residual_nonzero": 4,
+        "action_indices": [
+          274,
+          2081,
+          2199,
+          1876,
+          1771,
+          2296,
+          904
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338716,
+        "residual_nonzero": 6,
+        "action_indices": [
+          1816,
+          904,
+          3,
+          274,
+          1721,
+          1824,
+          1773
+        ]
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "depth": 7,
+      "expanded_nodes": 661401,
+      "residual_nonzero": 3,
+      "action_indices": [
+        274,
+        2073,
+        700,
+        921,
+        34,
+        933,
+        33
+      ]
+    }
+  },
+  {
+    "cycle": 2,
+    "new_or_improved_replay_records": 374,
+    "replay_size": 409,
+    "synthetic_validation_top1": 0.2074530028281484,
+    "synthetic_validation_top5": 0.28564298785559805,
+    "searches": [
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338903,
+        "residual_nonzero": 3,
+        "action_indices": [
+          274,
+          2073,
+          700,
+          921,
+          34,
+          933,
+          33
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 339044,
+        "residual_nonzero": 3,
+        "action_indices": [
+          274,
+          2073,
+          700,
+          921,
+          34,
+          933,
+          33
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338939,
+        "residual_nonzero": 3,
+        "action_indices": [
+          274,
+          2073,
+          700,
+          921,
+          34,
+          933,
+          33
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338966,
+        "residual_nonzero": 3,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          331,
+          1751,
+          2643,
+          858
+        ]
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "depth": 7,
+      "expanded_nodes": 660851,
+      "residual_nonzero": 2,
+      "action_indices": [
+        274,
+        2073,
+        16,
+        679,
+        900,
+        757,
+        727
+      ]
+    }
+  },
+  {
+    "cycle": 3,
+    "new_or_improved_replay_records": 299,
+    "replay_size": 464,
+    "synthetic_validation_top1": 0.20978206621194476,
+    "synthetic_validation_top5": 0.2876393278988521,
+    "searches": [
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338592,
+        "residual_nonzero": 1,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          900,
+          339
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338575,
+        "residual_nonzero": 1,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338595,
+        "residual_nonzero": 1,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ]
+      },
+      {
+        "success": false,
+        "depth": 7,
+        "expanded_nodes": 338521,
+        "residual_nonzero": 1,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          679,
+          900,
+          2197,
+          339
+        ]
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "depth": 7,
+      "expanded_nodes": 660767,
+      "residual_nonzero": 1,
+      "action_indices": [
+        274,
+        2081,
+        16,
+        2197,
+        679,
+        900,
+        339
+      ]
+    }
+  }
+]

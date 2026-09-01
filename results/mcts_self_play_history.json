@@ -1,0 +1,156 @@
+[
+  {
+    "cycle": 1,
+    "new_or_improved_replay_records": 2866,
+    "replay_size": 24918,
+    "synthetic_validation_top1": 0.22408916985526534,
+    "synthetic_validation_top5": 0.2969555814340376,
+    "searches": [
+      {
+        "success": false,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ],
+        "simulations": 3000,
+        "expanded_nodes": 352,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "retained_trajectories": 64
+      },
+      {
+        "success": false,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ],
+        "simulations": 3000,
+        "expanded_nodes": 350,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "retained_trajectories": 64
+      },
+      {
+        "success": false,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ],
+        "simulations": 3000,
+        "expanded_nodes": 343,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "retained_trajectories": 64
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "action_indices": [
+        495,
+        60,
+        16,
+        678,
+        2497,
+        1717,
+        331
+      ],
+      "simulations": 5000,
+      "expanded_nodes": 551,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1,
+      "retained_trajectories": 0
+    }
+  },
+  {
+    "cycle": 2,
+    "new_or_improved_replay_records": 2762,
+    "replay_size": 27621,
+    "synthetic_validation_top1": 0.2242555315255365,
+    "synthetic_validation_top5": 0.29828647479620696,
+    "searches": [
+      {
+        "success": false,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ],
+        "simulations": 3000,
+        "expanded_nodes": 360,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "retained_trajectories": 64
+      },
+      {
+        "success": false,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ],
+        "simulations": 3000,
+        "expanded_nodes": 361,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "retained_trajectories": 64
+      },
+      {
+        "success": false,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ],
+        "simulations": 3000,
+        "expanded_nodes": 360,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "retained_trajectories": 64
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "action_indices": [
+        495,
+        60,
+        16,
+        678,
+        2497,
+        1717,
+        331
+      ],
+      "simulations": 5000,
+      "expanded_nodes": 603,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1,
+      "retained_trajectories": 0
+    }
+  }
+]

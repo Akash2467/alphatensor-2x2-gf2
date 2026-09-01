@@ -1,0 +1,170 @@
+[
+  {
+    "cycle": 1,
+    "new_policy_states": 2302,
+    "policy_replay_size": 2302,
+    "validation_top1": 0.2259191482282482,
+    "validation_top5": 0.2969555814340376,
+    "searches": [
+      {
+        "success": false,
+        "expanded_nodes": 223,
+        "policy_targets": 171,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 225,
+        "policy_targets": 174,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 226,
+        "policy_targets": 174,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 229,
+        "policy_targets": 177,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 229,
+        "policy_targets": 172,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 224,
+        "policy_targets": 173,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 214,
+        "policy_targets": 158,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 226,
+        "policy_targets": 174,
+        "residual_nonzero": 1
+      }
+    ],
+    "epochs": [
+      {
+        "hard_loss": 6.603314168644668,
+        "soft_loss": 7.4863024922063515,
+        "soft_top5_any": 0.17245873153779323
+      },
+      {
+        "hard_loss": 6.565834690921599,
+        "soft_loss": 7.430735663472829,
+        "soft_top5_any": 0.182884448305821
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "action_indices": [
+        274,
+        2081,
+        16,
+        2197,
+        339,
+        679,
+        900
+      ],
+      "expanded_nodes": 382,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1
+    }
+  },
+  {
+    "cycle": 2,
+    "new_policy_states": 1960,
+    "policy_replay_size": 4262,
+    "validation_top1": 0.2265845949093329,
+    "validation_top5": 0.29678921976376643,
+    "searches": [
+      {
+        "success": false,
+        "expanded_nodes": 225,
+        "policy_targets": 179,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 220,
+        "policy_targets": 177,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 214,
+        "policy_targets": 168,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 224,
+        "policy_targets": 174,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 234,
+        "policy_targets": 181,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 220,
+        "policy_targets": 174,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 229,
+        "policy_targets": 178,
+        "residual_nonzero": 1
+      },
+      {
+        "success": false,
+        "expanded_nodes": 233,
+        "policy_targets": 182,
+        "residual_nonzero": 1
+      }
+    ],
+    "epochs": [
+      {
+        "hard_loss": 6.602262155777838,
+        "soft_loss": 7.460779693975856,
+        "soft_top5_any": 0.16353824495542
+      },
+      {
+        "hard_loss": 6.635952704903983,
+        "soft_loss": 7.389397422901514,
+        "soft_top5_any": 0.171984983575786
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "action_indices": [
+        274,
+        2073,
+        331,
+        712,
+        686,
+        16,
+        1687
+      ],
+      "expanded_nodes": 453,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1
+    }
+  }
+]

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "alphatensor-2x2"
+version = "0.1.0"
+description = "A small AlphaTensor-style agent for 2 x 2 matrix multiplication"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<9"]
+ml = ["torch>=2.2"]
+exact = ["z3-solver>=4.12"]
+all = ["pytest>=8,<9", "torch>=2.2", "z3-solver>=4.12"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

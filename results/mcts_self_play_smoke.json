@@ -1,0 +1,45 @@
+[
+  {
+    "cycle": 1,
+    "new_or_improved_replay_records": 80,
+    "replay_size": 22236,
+    "synthetic_validation_top1": 0.2242555315255365,
+    "synthetic_validation_top5": 0.2971219431043088,
+    "searches": [
+      {
+        "success": false,
+        "action_indices": [
+          274,
+          2081,
+          16,
+          2197,
+          679,
+          339,
+          900
+        ],
+        "simulations": 200,
+        "expanded_nodes": 100,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "retained_trajectories": 8
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "action_indices": [
+        495,
+        60,
+        16,
+        678,
+        2497,
+        1717,
+        331
+      ],
+      "simulations": 200,
+      "expanded_nodes": 97,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1,
+      "retained_trajectories": 0
+    }
+  }
+]

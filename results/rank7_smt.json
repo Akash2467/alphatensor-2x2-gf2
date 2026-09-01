@@ -1,0 +1,203 @@
+{
+  "status": "sat",
+  "rank": 7,
+  "action_indices": [
+    24,
+    332,
+    1117,
+    1646,
+    2479,
+    2888,
+    3315
+  ],
+  "elapsed_seconds": 117.69153970014304,
+  "exact_verification": true,
+  "reason_unknown": "",
+  "factors": [
+    {
+      "u": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "v": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "w": [
+        1,
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "u": [
+        0,
+        0,
+        1,
+        0
+      ],
+      "v": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "w": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "u": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "v": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "w": [
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "u": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "w": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "u": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "v": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "w": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "u": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "v": [
+        1,
+        1,
+        0,
+        1
+      ],
+      "w": [
+        1,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "u": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "v": [
+        1,
+        1,
+        0,
+        0
+      ],
+      "w": [
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "policy_analysis": [
+    {
+      "step": 1,
+      "action_index": 24,
+      "global_policy_rank": 71,
+      "policy_probability": 0.0011196008417755365
+    },
+    {
+      "step": 2,
+      "action_index": 3315,
+      "global_policy_rank": 232,
+      "policy_probability": 0.00039611326064914465
+    },
+    {
+      "step": 3,
+      "action_index": 2479,
+      "global_policy_rank": 575,
+      "policy_probability": 0.00017743340868037194
+    },
+    {
+      "step": 4,
+      "action_index": 2888,
+      "global_policy_rank": 248,
+      "policy_probability": 0.0006268980214372277
+    },
+    {
+      "step": 5,
+      "action_index": 1117,
+      "global_policy_rank": 3,
+      "policy_probability": 0.043542616069316864
+    },
+    {
+      "step": 6,
+      "action_index": 1646,
+      "global_policy_rank": 1,
+      "policy_probability": 0.3277222216129303
+    },
+    {
+      "step": 7,
+      "action_index": 332,
+      "global_policy_rank": 1,
+      "policy_probability": 0.5430883765220642
+    }
+  ],
+  "checkpoint": "checkpoints\\mcts_self_play_transformer.pt"
+}

@@ -1,0 +1,26 @@
+# Python environments and caches
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated model/replay artifacts. Keep the final reproducible result only.
+checkpoints/*.pt
+!checkpoints/expert_bootstrap_transformer.pt
+replay/*.npz
+!replay/expert_policy_replay.npz
+
+# Local coverage and build output
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/

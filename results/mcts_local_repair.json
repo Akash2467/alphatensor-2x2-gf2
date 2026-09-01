@@ -1,0 +1,29 @@
+{
+  "success": false,
+  "original_actions": [
+    495,
+    60,
+    16,
+    678,
+    2497,
+    1717,
+    331,
+    1623
+  ],
+  "repaired_actions": [
+    495,
+    60,
+    16,
+    678,
+    2497,
+    1717,
+    331,
+    1623
+  ],
+  "removed_positions": [],
+  "removed_actions": [],
+  "replacement_actions": [],
+  "tested_subsets": 154,
+  "repaired_rank": 8,
+  "exact_verification": true
+}

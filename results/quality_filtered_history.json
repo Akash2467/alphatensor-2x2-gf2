@@ -1,0 +1,212 @@
+[
+  {
+    "cycle": 1,
+    "new_policy_states": 2236,
+    "policy_replay_size": 2236,
+    "validation_top1": 0.2239228081849942,
+    "validation_top5": 0.2979537514556646,
+    "searches": [
+      {
+        "success": false,
+        "expanded_nodes": 224,
+        "policy_targets": 173,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 226,
+        "policy_targets": 175,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 223,
+        "policy_targets": 169,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 226,
+        "policy_targets": 171,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 224,
+        "policy_targets": 170,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 212,
+        "policy_targets": 158,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 225,
+        "policy_targets": 174,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 211,
+        "policy_targets": 151,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      }
+    ],
+    "epochs": [
+      {
+        "hard_loss": 6.639100310154219,
+        "soft_loss": 7.62802284305552,
+        "soft_top5_any": 0.1556350626118068
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "action_indices": [
+        274,
+        2081,
+        16,
+        2197,
+        679,
+        339,
+        900
+      ],
+      "expanded_nodes": 469,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1
+    },
+    "checkpoint_selected": false,
+    "best_cycle_after_evaluation": 0
+  },
+  {
+    "cycle": 2,
+    "new_policy_states": 2067,
+    "policy_replay_size": 4303,
+    "validation_top1": 0.2215937448011978,
+    "validation_top5": 0.2921310929961737,
+    "searches": [
+      {
+        "success": false,
+        "expanded_nodes": 224,
+        "policy_targets": 172,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 223,
+        "policy_targets": 174,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 201,
+        "policy_targets": 148,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 225,
+        "policy_targets": 173,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 213,
+        "policy_targets": 156,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 227,
+        "policy_targets": 176,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 224,
+        "policy_targets": 170,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      },
+      {
+        "success": false,
+        "expanded_nodes": 206,
+        "policy_targets": 149,
+        "residual_nonzero": 1,
+        "residual_rank_upper_bound": 1,
+        "accepted": true,
+        "outcome_weight": 0.3621759990808257
+      }
+    ],
+    "epochs": [
+      {
+        "hard_loss": 6.64561305666497,
+        "soft_loss": 7.7048036848808925,
+        "soft_top5_any": 0.1322333255867999
+      }
+    ],
+    "evaluation": {
+      "success": false,
+      "action_indices": [
+        274,
+        2081,
+        16,
+        2197,
+        679,
+        339,
+        900
+      ],
+      "expanded_nodes": 441,
+      "residual_nonzero": 1,
+      "residual_rank_upper_bound": 1
+    },
+    "checkpoint_selected": false,
+    "best_cycle_after_evaluation": 0
+  }
+]
